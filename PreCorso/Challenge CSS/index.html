@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Prep</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Prata&display=swap');
+        body {
+            margin: 0;
+            background-color: rgb(216, 238, 183);
+        }
+
+        .main-section {
+            padding: 20px;
+        }
+
+        img { 
+            width: 100%;
+        }
+
+        h1 {
+            font-family: 'Prata', serif;
+            margin-top: 0px;
+            margin-bottom: 0px;
+            color: darkolivegreen;
+        }
+
+        h1:hover {
+            color: olive;
+            
+        }
+
+        p {
+            font-family: 'Montserrat', sans-serif;
+        }
+            .input-field {
+            display: block;
+            width: 100%;
+        }
+
+        #footer-wrapper {
+            max-width: 450px;
+            margin: 0 auto;
+            padding: 15px;
+            background-color: rgba(62, 105, 13, 0.74);
+        }
+    </style>
+</head>
+<body>
+
+<div class="main-section">
+
+    <div class="image-container">
+        <img src="https://i.pinimg.com/736x/cc/50/bf/cc50bfdd2eec574ccc986575282997d1.jpg" alt="Panorama Image">
+    </div>
+
+    <p>
+        Autore: 
+        <a href="Miyazaki.html" target="_blank" rel="noopener noreferrer">
+            Hayao Miyazaki </a>
+    </p>
+
+    <h1>Pioggia di Ricordi (Omoide poro poro) - 1991</h1>
+    <h4>
+        L'Arte Silenziosa di Studio Ghibli: Un Viaggio Attraverso i Paesaggi di "Pioggia di Ricordi"
+    </h4>
+
+    <hr />
+
+    <p>
+        Questo splendido sfondo animato cattura in modo magistrale l'essenza dell'arte di Studio Ghibli, la casa di produzione cinematografica co-fondata dal leggendario Hayao Miyazaki. L'immagine non è semplicemente la rappresentazione di un luogo, ma un'immersione completa in un'atmosfera di profonda nostalgia e realismo poetico, cifra stilistica inconfondibile delle loro opere più celebrate e amate in tutto il mondo.
+        Lo stile è fortemente riconducibile alla rinomata scuola artistica del background art Ghibli, guidata da maestri della pittura come Kazuo Oga. Oga è noto per il suo lavoro estremamente dettagliato e vibrante in film cardine dello studio, come Pioggia di Ricordi (diretto da Isao Takahata) e Il mio vicino Totoro. È proprio l'attenzione minuziosa alla vegetazione, ai campi e alla strada rurale percorsa dai pali della luce a conferire alla scena una sensazione di autenticità quasi palpabile. Ogni filo d'erba, ogni nuvola è trattata con una cura che eleva il paesaggio ben oltre la semplice funzione di scenario.
+        L'elemento più sorprendente è l'uso drammatico dell'illuminazione: una luce calda e intensa, tipica del crepuscolo o dell'alba, avvolge la scena. Questo bagliore dorato si scontra con il cielo carico di nuvole e le ombre lunghe che si proiettano sull'orizzonte, creando un contrasto vibrante che evoca un forte senso di quiete malinconica, di attesa e di bellezza fugace. Questa tecnica cromatica non è casuale: essa serve a stabilire un tono emotivo immediato, trasformando la veduta in una finestra sui ricordi e sui sentimenti del fruitore.
+        Questo tipo di paesaggio non è un mero riempitivo visivo, ma è la vera colonna portante di molti film Ghibli ambientati in contesti rurali. Attraverso questa magnificenza visiva, lo studio omaggia la bellezza del mondo ordinario e la connessione spirituale con la natura, un tema ricorrente nell'opera di Miyazaki. In definitiva, la maestria nella pittura trasforma un semplice scorcio di campagna in un'opera d'arte senza tempo e profondamente risonante.
+    </p>
+
+
+
+    <h4> Altra opera di Miyazaki </h4>
+        <div>
+        <a href="index1.html" target="_blank" rel="noopener noreferrer">
+            -La Città Incantata </a>
+        </div>
+
+
+
+
+    <div id="footer-wrapper">
+             
+
+        <form onsubmit="alert"(Your form has been submitted!)>
+            <label for="email-input">Iscriviti alla nostra newsletter:</label>
+            <input 
+                class="input-field" 
+                id="email-input" 
+                required placeholder="Inserisci la tua email"/>
+            <textarea
+            cols="30"
+            rows="10"
+            placeholder="Scrivi qui i tuoi commenti..."
+            class="input-field" ></textarea>
+            
+
+        <button type="submit">Invia</button>
+        </form>
+    </div>
+
+</div>
+
+</body>
+</html>

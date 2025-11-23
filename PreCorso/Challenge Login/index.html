@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Studiofy Sign Up</title>
+</head>
+<body style="margin: 0; background-color: gray;">
+
+<div style="display: flex; height: 100vh;">
+
+    
+    <div style="flex: 2; padding: 20px; background-color: gray;">
+        <h1>Studiofy Music</h1>
+        <p>Inserisci i tuoi dati per la creazione del tuo account!</p>
+        <form onsubmit="alert('Registrazione inviata!'); return false;">
+            <input type="text" placeholder="Il tuo nome" style="display:block; margin:10px 0;" />
+            <input type="text" placeholder="Il tuo cognome" style="display:block; margin:10px 0;" />
+            <input type="email" placeholder="La tua email" style="display:block; margin:10px 0;" />
+            <input type="number" placeholder="Il tuo numero" style="display:block; margin:10px 0;" />
+            <input type="password" placeholder="Inserire password" style="display:block; margin:10px 0;" />
+
+            <p>Scegli i tuoi generi preferiti:</p>
+            <div>Rock <input type="checkbox" /></div>
+            <div>Punk <input type="checkbox" /></div>
+            <div>Pop <input type="checkbox" /></div>
+            <div>Rap <input type="checkbox" /></div>
+            <div>Classica <input type="checkbox" /></div>
+            <div>Jazz <input type="checkbox" /></div>
+
+            <p>Consenso ai termini e condizioni <input type="radio" /></p>
+            <button type="submit" style="display:block; margin:10px 0;">Invia registrazione
+            </button> 
+        </form>
+    </div>
+
+
+    <div style="flex: 1;">
+        <img src="https://images.pexels.com/photos/3574678/pexels-photo-3574678.jpeg?cs=srgb&dl=pexels-nardo-1870916-3574678.jpg&fm=jpg"
+             alt="music image" 
+             style="width:100%; height:100%; object-fit:cover; display:block;" />
+    </div>
+
+</div>
+
+</body>
+</html>

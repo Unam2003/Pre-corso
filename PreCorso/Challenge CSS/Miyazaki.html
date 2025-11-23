@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biografia - Hayao Miyazaki</title>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&family=Prata&display=swap');
+
+        body {
+            margin: 0;
+            background-color: #c4c3c1;
+        }
+
+        .main-section {
+            padding: 20px;
+        }
+
+        img {
+            width: 20%;
+        }
+
+        .content {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 18px;
+        }
+
+        h1 {
+            font-family: 'Prata', serif;
+            color: darkolivegreen;
+            margin-top: 10px;
+            margin-bottom: 6px;
+        }
+
+        h3, h4 {
+            font-family: 'Prata', serif;
+            color: #4b5320;
+            margin-bottom: 6px;
+        }
+
+        p {
+            font-family: 'Montserrat', sans-serif;
+            line-height: 1.6;
+            font-size: 15px;
+        }
+
+        a {
+            color: #305d10;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .input-field {
+            display: block;
+            width: 100%;
+            margin-bottom: 10px;
+            padding: 6px;
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        #footer-wrapper {
+            max-width: 450px;
+            margin: 40px auto 0;
+            padding: 15px;
+            background-color: rgba(62, 105, 13, 0.75);
+            border-radius: 6px;
+        }
+
+        label {
+            font-family: 'Montserrat', sans-serif;
+            color: white;
+        }
+
+        button {
+            background-color: #2f4f14;
+            color: white;
+            padding: 8px 14px;
+            border: none;
+            border-radius: 4px;
+            font-family: 'Montserrat', sans-serif;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #253d0f;
+        }
+    </style>
+</head>
+<body>
+
+    
+
+    <div class="main-section">
+
+        <img src="https://movieplayer.net-cdn.it/t/images/2008/08/11/il-regista-hayao-miyazaki-85552_jpg_170x0_crop_q85.jpg"  alt="Hayao Miyazaki">
+        <h1>Hayao Miyazaki</h1>
+        <h3>Il Sognatore che ha Cambiato l'Animazione</h3>
+
+        <p>
+            Hayao Miyazaki (生きてる伝説) è uno dei più grandi maestri dell'animazione mondiale,
+            cofondatore dello Studio Ghibli e autore di capolavori che hanno segnato intere
+            generazioni. Nato nel 1941 a Tokyo, Miyazaki è noto per il suo stile poetico,
+            ambientalista e profondamente umano, dove ogni storia sembra sospesa tra sogno,
+            nostalgia e magia.
+        </p>
+
+        <p>
+            Dopo gli inizi alla Toei Animation negli anni 60, si è fatto conoscere grazie
+            alla sua visione unica e alla capacità di creare mondi dettagliatissimi, popolati
+            da spiriti, creature fiabesche e personaggi complessi. Tra i suoi film più celebri
+            troviamo <em>Il Castello Errante di Howl</em>, <em>Principessa Mononoke</em>,
+            <em>Il Mio Vicino Totoro</em> e il premiato
+            <strong>La Città Incantata</strong>, vincitore dell'Oscar nel 2003.
+        </p>
+
+        <p>
+            Le sue opere esplorano temi come il rapporto fra uomo e natura, la crescita
+            interiore e il potere dell'immaginazione. Ogni sua pellicola è un viaggio emotivo
+            che unisce disegno tradizionale e narrazione profonda, creando esperienze
+            indimenticabili per spettatori di tutte le età.
+        </p>
+
+        <hr>
+
+    
+        <div id="footer-wrapper">
+
+            <form onsubmit="alert('Iscrizione completata!'); return false;">
+                <label for="email-input">Iscriviti alla newsletter:</label>
+
+                <input 
+                    class="input-field" 
+                    id="email-input"
+                    type="email"
+                    required 
+                    placeholder="Inserisci la tua email"
+                />
+
+                <textarea
+                    cols="30"
+                    rows="5"
+                    placeholder="Scrivi un messaggio..."
+                    class="input-field"
+                ></textarea>
+
+                <button type="submit">Invia</button>
+            </form>
+        </div>
+
+    </div>
+</body>
+</html>
